@@ -1,13 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Noto Sans JP'; 
+  color: #332c49; 
+  background-color: #fafafc; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2, h3 {
+  margin: 0;
+}
+
+.container {
+  margin: 50px; 
+  width: 30%; 
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.subheader {
+  font-size: 30px;
+  font-weight: 400;
+  color: #f4b75e; 
+}
+
+.bg-light {
+  background-color: #fff; 
+  border-radius: 6px; 
+}
+
+.add-todo {
+  padding: 20px 30px; 
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-btn-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.add-input {
+  flex-grow: 2; 
+  outline: none; 
+  border: none; 
+  font-family: 'Noto Sans JP'; 
+  font-size: 16px; 
+}
+
+.add-btn {
+  background-color: #f8d57e;
+  color: #fff;
+  border: none;
+  font-weight: 600; 
+  padding: 5px 10px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  width: 46px;
+  height: 50px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list li {
+  background-color: #fff;
+  padding: 20px 30px; 
+  margin-top: 10px; 
+}
+
+.list-btn {
+  background: none;
+  border: none; 
+  cursor: pointer;
+  outline: none; 
+  font-size: 16px; 
+}
+
+.checked {
+  text-decoration: line-through; 
 }
